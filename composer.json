@@ -1,0 +1,22 @@
+{
+    "name": "vendor/pack",
+    "description": "testing",
+    "require": {
+        "symfony/browser-kit": "^5.0",
+        "symfony/http-client": "^5.0",
+        "symfony/http-foundation": "^5.0",
+        "symfony/routing": "^5.0",
+        "fabpot/goutte": "^4.0",
+        "twig/twig": "^3.0",
+        "symfony/dom-crawler": "^6.4",
+        "voku/simple_html_dom": "^4.8",
+        "ext-libxml": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+
+}
